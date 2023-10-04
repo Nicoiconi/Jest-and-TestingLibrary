@@ -1,7 +1,7 @@
 import './App.css'
 
 import { Box, Typography } from '@mui/material'
-// import { LoginForm } from './pages'
+import LoginForm from './pages/Login/LoginForm'
 
 function App() {
 
@@ -19,7 +19,7 @@ function App() {
       >
         Testing
       </Typography>
-      {/* <LoginForm /> */}
+      <LoginForm />
     </Box>
   )
 }
