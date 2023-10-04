@@ -12,7 +12,9 @@ export default function CustomInput({ name = '', label = '', type = 'text', disa
     <div>
       <TextField
         required={required}
-        disabled={disabled}
+        {
+        ...(disabled ? { disabled } : {})
+        }
         type={type}
         error={errors && !!errors[name]} // !! verifica que sea truthy y lo convierte a booelano
         id={name}
