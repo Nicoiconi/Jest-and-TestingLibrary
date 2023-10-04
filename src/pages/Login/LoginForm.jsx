@@ -1,10 +1,10 @@
 import { useForm, FormProvider } from "react-hook-form"
 import { yupResolver } from '@hookform/resolvers/yup'
-import { LoginFormSchema } from "../schemas/login-form-schema"
+import { LoginFormSchema } from "./schemas/login-form-schema"
 import CustomInput from "../../components/CustomInput"
 import CustomButton from "../../components/CustomButton"
-import DisplayFormValues from "../components/DisplayFormValues"
-import { callEndpoint } from "../services/call-endpoint"
+import DisplayFormValues from "./components/DisplayFormValues"
+import { callEndpoint } from "./services/call-endpoint"
 import { Box } from '@mui/material'
 
 
