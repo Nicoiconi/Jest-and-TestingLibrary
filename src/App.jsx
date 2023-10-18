@@ -10,6 +10,7 @@ function App() {
       className='App'
       display='flex'
       justifyContent='center'
+      alignItems='center'
       flexDirection='column'
     >
       <Typography
